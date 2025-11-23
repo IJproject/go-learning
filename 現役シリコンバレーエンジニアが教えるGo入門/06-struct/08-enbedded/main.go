@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	v3 := NewVertex3D(2, 3, 4)
-	fmt.Println(v3.Area3D())   // => 24
+	fmt.Println(v3.Area3D()) // => 24
 }
 
 type Vertex2D struct {
@@ -22,6 +22,6 @@ func NewVertex3D(x, y, z int) *Vertex3D {
 	return &Vertex3D{Vertex2D{x, y}, z}
 }
 
-func (v3 Vertex3D)Area3D() int {
+func (v3 Vertex3D) Area3D() int {
 	return v3.X * v3.Y * v3.Z
 }

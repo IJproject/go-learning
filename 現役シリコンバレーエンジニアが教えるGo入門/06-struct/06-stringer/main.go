@@ -4,7 +4,7 @@ import "fmt"
 
 type Person struct {
 	Name string
-	Age int
+	Age  int
 }
 
 // Stringer
@@ -15,5 +15,5 @@ func (p Person) String() string {
 
 func main() {
 	Bob := Person{"Bob", 22}
-	fmt.Println(Bob)    // => My name is Bob.
+	fmt.Println(Bob) // => My name is Bob.
 }

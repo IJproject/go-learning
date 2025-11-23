@@ -14,9 +14,9 @@ func NewVertex(x, y int) *Vertex {
 
 func main() {
 	v := NewVertex(3, 4)
-	fmt.Println(AreaFunc(*v))                    // => 12
-	fmt.Println(v.AreaMethod())                  // => 12
-	fmt.Println(v.ScaleMethod(10).AreaMethod())  // => 1200
+	fmt.Println(AreaFunc(*v))                   // => 12
+	fmt.Println(v.AreaMethod())                 // => 12
+	fmt.Println(v.ScaleMethod(10).AreaMethod()) // => 1200
 }
 
 func AreaFunc(v Vertex) int {

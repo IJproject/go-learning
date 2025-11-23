@@ -29,6 +29,6 @@ func DriveCar(human Human) {
 func main() {
 	var mike Human = &Person{"Mike"}
 	var x Human = &Person{"X"}
-	DriveCar(mike)  // Mr.Mike, Run
-	DriveCar(x)     // Mr.X, Get Out
+	DriveCar(mike) // Mr.Mike, Run
+	DriveCar(x)    // Mr.X, Get Out
 }

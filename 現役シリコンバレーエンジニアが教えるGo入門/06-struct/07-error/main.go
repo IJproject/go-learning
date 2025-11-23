@@ -19,6 +19,6 @@ func MyErrFunc() error {
 
 func main() {
 	if err := MyErrFunc(); err != nil {
-		fmt.Println(err)  // => User not found: Bob
+		fmt.Println(err) // => User not found: Bob
 	}
 }
