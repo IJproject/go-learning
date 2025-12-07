@@ -61,11 +61,3 @@ func S5() {
 	io.WriteString(conn, "GET / HTTP/1.0\r\nHost: example.com\r\n\r\n") // ソケットに書き込むことでHTTPリクエストを発火
 	io.Copy(os.Stdout, conn)
 }
-
-func S6() {
-
-}
-
-func S7() {
-
-}
